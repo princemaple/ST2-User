@@ -1,9 +1,8 @@
 {
-	"auto_upgrade_last_run": 1351754885,
+	"auto_upgrade_last_run": 1352112954,
 	"installed_packages":
 	[
 		"AAAPackageDev",
-		"AdvancedNewFile",
 		"Alignment",
 		"AsAbove",
 		"ASCII Decorator",
@@ -29,10 +28,12 @@
 		"JsMinifier",
 		"LineEndings",
 		"LiveReload",
+		"LoremIpsum",
 		"Markdown Preview",
 		"MarkdownBuild",
 		"Meta",
 		"Nettuts+ Fetch",
+		"OmniMarkupPreviewer",
 		"Package Control",
 		"Placeholders",
 		"PlainTasks",
