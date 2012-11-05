@@ -1,0 +1,7 @@
+[
+	{
+		"caption": "Run Macro: Make String List - Python Style",
+		"command": "run_macro_file",
+		"args": {"file": "Packages/User/python/PythonStringList.sublime-macro"}
+	}
+]

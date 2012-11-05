@@ -1,0 +1,87 @@
+[
+	{
+		"args": null,
+		"command": "split_selection_into_lines"
+	},
+	{
+		"args":
+		{
+			"contents": "\"${0:$SELECTION}\""
+		},
+		"command": "insert_snippet"
+	},
+	{
+		"args":
+		{
+			"extend": false,
+			"to": "eol"
+		},
+		"command": "move_to"
+	},
+	{
+		"args":
+		{
+			"characters": ","
+		},
+		"command": "insert"
+	},
+	{
+		"args": null,
+		"command": "exit_insert_mode"
+	},
+	{
+		"args": null,
+		"command": "enter_visual_line_mode"
+	},
+	{
+		"args": null,
+		"command": "join_lines"
+	},
+	{
+		"args":
+		{
+			"action_args": null,
+			"action_command": null,
+			"motion_args":
+			{
+				"extend": true,
+				"repeat": 1
+			},
+			"motion_clip_to_line": false,
+			"motion_command": "vi_move_to_hard_eol",
+			"motion_inclusive": true,
+			"motion_mode": 2
+		},
+		"command": "vi_eval"
+	},
+	{
+		"args":
+		{
+			"register": "\""
+		},
+		"command": "shrink_selections_to_end"
+	},
+	{
+		"args":
+		{
+			"extend": true,
+			"to": "bol"
+		},
+		"command": "move_to"
+	},
+	{
+		"args":
+		{
+			"contents": "[${0:$SELECTION}]"
+		},
+		"command": "insert_snippet"
+	},
+	{
+		"args":
+		{
+			"extend": false,
+			"to": "bol"
+		},
+		"command": "move_to"
+	}
+]
