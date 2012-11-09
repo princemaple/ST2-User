@@ -74,7 +74,6 @@
 		"Textile",
 		"ASCII Decorator",
 		"Inc-Dec-Value",
-		"LoremIpsum",
 		"FoldComments",
 		"Erlang",
 		"SublimeLinter",
@@ -105,6 +104,7 @@
 		"Indent XML",
 		"CSSLint",
 		"Lua",
+		"MarkdownBuild",
 		"RestructuredText",
 		"JsMinifier",
 		"Theme - Soda",
@@ -115,9 +115,10 @@
 		"Go",
 		"VintageEx",
 		"Alignment",
-		"MarkdownBuild"
+		"FindKeyConflicts"
 	],
 	"tab_completion": false,
+	"detect_slow_plugins": false,
 	"theme": "Default.sublime-theme",
 	"vintage_ctrl_keys": false,
 	"word_wrap": true

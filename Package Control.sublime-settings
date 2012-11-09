@@ -1,8 +1,9 @@
 {
-	"auto_upgrade_last_run": 1352112954,
+	"auto_upgrade_last_run": 1352453568,
 	"installed_packages":
 	[
 		"AAAPackageDev",
+		"AdvancedNewFile",
 		"Alignment",
 		"AsAbove",
 		"ASCII Decorator",
@@ -14,8 +15,10 @@
 		"CSSLint",
 		"Display Functions (Java)",
 		"DocBlockr",
+		"Emmet",
 		"EncodingHelper",
 		"FileDiffs",
+		"FindKeyConflicts",
 		"GenerateUUID",
 		"Gist",
 		"Git",
@@ -28,7 +31,6 @@
 		"JsMinifier",
 		"LineEndings",
 		"LiveReload",
-		"LoremIpsum",
 		"Markdown Preview",
 		"MarkdownBuild",
 		"Meta",
@@ -52,7 +54,6 @@
 		"UnofficialDocs",
 		"VintageEx",
 		"WordCount",
-		"YUI Compressor",
-		"ZenCoding"
+		"YUI Compressor"
 	]
 }
