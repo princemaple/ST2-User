@@ -1,5 +1,5 @@
 {
-	"auto_upgrade_last_run": 1352453568,
+	"auto_upgrade_last_run": 1352966803,
 	"installed_packages":
 	[
 		"AAAPackageDev",
@@ -13,7 +13,6 @@
 		"Change Tracker",
 		"CSS Less(ish)",
 		"CSSLint",
-		"Display Functions (Java)",
 		"DocBlockr",
 		"Emmet",
 		"EncodingHelper",
@@ -45,12 +44,11 @@
 		"Sublime-HTMLPrettify",
 		"sublime-jslint",
 		"SublimeClang",
-		"SublimeJava",
 		"SublimeLinter",
 		"SublimeWebColors",
+		"Table Editor",
 		"Tag",
 		"Terminal",
-		"Theme - Soda",
 		"UnofficialDocs",
 		"VintageEx",
 		"WordCount",

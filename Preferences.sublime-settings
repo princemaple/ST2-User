@@ -17,6 +17,7 @@
 		"*.zip"
 	],
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"detect_slow_plugins": false,
 	"file_exclude_patterns":
 	[
 		"*.pyc",
@@ -86,7 +87,6 @@
 		"TCL",
 		"Meta",
 		"Camaleon",
-		"Display Functions (Java)",
 		"Groovy",
 		"Change Tracker",
 		"CSS Less(ish)",
@@ -99,7 +99,6 @@
 		"Markdown Preview",
 		"PlainTasks",
 		"EncodingHelper",
-		"SublimeJava",
 		"Clojure",
 		"Indent XML",
 		"CSSLint",
@@ -107,7 +106,6 @@
 		"MarkdownBuild",
 		"RestructuredText",
 		"JsMinifier",
-		"Theme - Soda",
 		"Graphviz",
 		"GenerateUUID",
 		"Tag",
@@ -118,7 +116,6 @@
 		"FindKeyConflicts"
 	],
 	"tab_completion": false,
-	"detect_slow_plugins": false,
 	"theme": "Default.sublime-theme",
 	"vintage_ctrl_keys": false,
 	"word_wrap": true
