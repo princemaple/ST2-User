@@ -1,5 +1,5 @@
 {
-	"auto_upgrade_last_run": 1352966803,
+	"auto_upgrade_last_run": 1353160665,
 	"installed_packages":
 	[
 		"AAAPackageDev",
@@ -11,13 +11,13 @@
 		"BracketHighlighter",
 		"Camaleon",
 		"Change Tracker",
-		"CSS Less(ish)",
 		"CSSLint",
 		"DocBlockr",
 		"Emmet",
 		"EncodingHelper",
 		"FileDiffs",
 		"FindKeyConflicts",
+		"FuzzyFileNav",
 		"GenerateUUID",
 		"Gist",
 		"Git",
@@ -28,6 +28,8 @@
 		"Indent XML",
 		"jQuery Snippets pack",
 		"JsMinifier",
+		"LESS",
+		"LESS-build",
 		"LineEndings",
 		"LiveReload",
 		"Markdown Preview",
@@ -40,6 +42,7 @@
 		"PlainTasks",
 		"Prefixr",
 		"RegReplace",
+		"SCSS",
 		"SideBarEnhancements",
 		"Sublime-HTMLPrettify",
 		"sublime-jslint",

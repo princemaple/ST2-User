@@ -54,7 +54,6 @@
 		]
 	},
 	{ "keys": ["super+j"], "command": "expand_selection", "args": {"to": "indentation"} },
-
 	{ "keys": ["`"], "command": "hide_auto_complete", "context":
 		[
 			{ "key": "auto_complete_visible", "operator": "equal", "operand": true }
@@ -90,6 +89,7 @@
 	{ "keys": ["super+n"], "command": "advanced_new_file"},
 	{ "keys": ["shift+super+n"], "command": "advanced_new_file", "args": {"is_python": true}},
 	{ "keys": ["alt+up"], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": false} },
-	{ "keys": ["alt+down"], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": true} }
-	// { "keys": ["ctrl+k", "ctrl+f"], "command": "indentxml" },
+	{ "keys": ["alt+down"], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": true} },
+    { "keys": ["ctrl+o"], "command": "fuzzy_start_from_file" },
+    { "keys": ["ctrl+shift+o"], "command": "fuzzy_bookmarks_load" }
 ]

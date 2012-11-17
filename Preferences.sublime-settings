@@ -1,4 +1,5 @@
 {
+    "table_editor_border_style": "grid",
 	"auto_complete_commit_on_tab": false,
 	"binary_file_patterns":
 	[
@@ -75,9 +76,11 @@
 		"Textile",
 		"ASCII Decorator",
 		"Inc-Dec-Value",
+		"FindKeyConflicts",
 		"FoldComments",
 		"Erlang",
 		"SublimeLinter",
+		"SCSS",
 		"AAAPackageDev",
 		"sublime-jslint",
 		"C#",
@@ -88,8 +91,6 @@
 		"Meta",
 		"Camaleon",
 		"Groovy",
-		"Change Tracker",
-		"CSS Less(ish)",
 		"D",
 		"Lisp",
 		"UnofficialDocs",
@@ -106,14 +107,14 @@
 		"MarkdownBuild",
 		"RestructuredText",
 		"JsMinifier",
+		"Change Tracker",
 		"Graphviz",
 		"GenerateUUID",
 		"Tag",
 		"ActionScript",
 		"Go",
 		"VintageEx",
-		"Alignment",
-		"FindKeyConflicts"
+		"Alignment"
 	],
 	"tab_completion": false,
 	"theme": "Default.sublime-theme",

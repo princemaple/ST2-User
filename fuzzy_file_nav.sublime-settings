@@ -1,0 +1,7 @@
+{
+	"home": "~",
+
+    "bookmarks": [
+        {"name": "My Computer", "path": {"#multiconf#": [{"os:windows": "C:/Users/Prince/Documents"}]}}
+    ]
+}
