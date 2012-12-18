@@ -1,6 +1,6 @@
 {
 	"home": "C:\\Users\\Prince\\",
-
+	"keep_panel_open_after_action": false,
     "bookmarks": [
         {"name": "My Computer", "path": {"#multiconf#": [{"os:windows": "C:\\Users\\Prince\\Documents"}]}}
     ]

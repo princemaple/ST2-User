@@ -1,9 +1,10 @@
 <snippet>
 	<content><![CDATA[
-<script type="text/javascript" src="${1}"></script>
+def __init__(self${1:, $2}):
+	$0
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>scriptsrc</tabTrigger>
+	<tabTrigger>init</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>text.html</scope>
+	<scope>source.python</scope>
 </snippet>

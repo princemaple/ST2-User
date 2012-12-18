@@ -1,0 +1,13 @@
+-putStrLn "abcedfg"
+-module Main where\n\nmain = putStrLn "Hello World"
+-putStrLn "abcdeg"
+-version()
+-help
+-help()
+-print 123
+-repr 123
+-repr(123)
+-exit()
+-:load hello.hs
+-pwd
+-:pwd

@@ -25,5 +25,19 @@
 				"toomanynewlines"
 			]
 		}
+	},
+
+	{
+		"caption": "Reg Replace: Compress Code",
+		"command": "reg_replace",
+		"args": {
+			"replacements": [
+				"compress_comments",
+				"compress_space",
+				"compress_special",
+				"compress_opening_brackets",
+				"compress_closing_brackets"
+			]
+		}
 	}
 ]

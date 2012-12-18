@@ -15,14 +15,14 @@
 			"scope_filter": ["source", "-comment", "-!string"]
 		},
 		"opening_bracket_space": {
-			"find": "\\((?!\\s)",
+			"find": "\\((?!\\s|\\))",
 			"replace": "( ",
 			"greedy": true,
 			"case": false,
 			"scope_filter": ["source", "-comment", "-!string"]
 		},
 		"closing_bracket_space": {
-			"find": "(?<!\\s)\\)",
+			"find": "(?<!\\s|\\()\\)",
 			"replace": " )",
 			"greedy": true,
 			"case": false,
@@ -62,6 +62,57 @@
 			"greedy": true,
 			"case": false,
 			"scope_filter": ["comment"]
+		},
+		"compress_space": {
+			"find": "\t|\n",
+			"replace": "",
+			"greedy": true,
+			"case": false,
+			"scope_filter": 
+			[
+				"source.c, source.js, source.java, source.css",
+				"-comment", "-!string"
+			]
+		},
+		"compress_comments": {
+			"find": ".*?\n",
+			"replace": "",
+			"greedy": true,
+			"case": false,
+			"scope_filter": ["comment"]
+		},
+		"compress_opening_brackets": {
+			"find": "(\\[|\\(|\\{)\\s+",
+			"replace": "\\1",
+			"greedy": true,
+			"case": false,
+			"scope_filter": 
+			[
+				"source.c, source.js, source.java, source.css",
+				"-comment", "-!string"
+			]
+		},
+		"compress_closing_brackets": {
+			"find": "\\s+(\\)|\\}|\\])",
+			"replace": "\\1",
+			"greedy": true,
+			"case": false,
+			"scope_filter": 
+			[
+				"source.c, source.js, source.java, source.css",
+				"-comment", "-!string"
+			]
+		},
+		"compress_special": {
+			"find": "\\s*(:|;|,)\\s*",
+			"replace": "\\1",
+			"greedy": true,
+			"case": false,
+			"scope_filter": 
+			[
+				"source.c, source.js, source.java, source.css",
+				"-comment", "-!string"
+			]
 		}
 	}
 }

@@ -19,19 +19,16 @@
 			//separator
 			{"caption":"-"},
 
-			//application 2
 			{
-				"caption": "SeaMonkey",
-				"id": "side-bar-files-open-with-seamonkey",
-
+				"caption": "Firefox",
+				"id": "side-bar-firefox",
 				"command": "side_bar_files_open_with",
 				"args": {
-									"paths": [],
-									"application": "C:\\Archivos de programa\\SeaMonkey\\seamonkey.exe", // WINNT
-									"extensions":"" //open all even folders
-								}
+					"paths": [],
+					"application": "C:/Program Files (x86)/Mozilla Firefox 4.0/firefox.exe",
+					"extensions": "html"
+				}
 			},
-			//application n
 			{
 				"caption": "Chrome",
 				"id": "side-bar-files-open-with-chrome",
