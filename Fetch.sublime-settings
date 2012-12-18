@@ -8,6 +8,7 @@
 	},
 	"packages":
 	{
+		"bootstrap": "http://twitter.github.com/bootstrap/assets/bootstrap.zip",
 		"html5-boilerplate": "https://github.com/h5bp/html5-boilerplate/archive/master.zip"
 	}
 }
