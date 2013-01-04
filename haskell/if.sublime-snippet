@@ -2,7 +2,7 @@
 	<content><![CDATA[
 if $1
 	then $2
-	else $3
+	else $0
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>if</tabTrigger>

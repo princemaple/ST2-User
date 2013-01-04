@@ -8,7 +8,7 @@
 		"ASCII Decorator",
 		"Auto Semi-Colon",
 		"BracketHighlighter",
-		"Change Tracker",
+		"Color Highlighter",
 		"CSSLint",
 		"DocBlockr",
 		"Emmet",
@@ -50,7 +50,6 @@
 		"Tag",
 		"Terminal",
 		"UnofficialDocs",
-		"VintageEx",
 		"YUI Compressor"
 	]
 }

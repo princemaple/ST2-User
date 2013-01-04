@@ -1,0 +1,9 @@
+{
+	// list of renderers to be ignored, case sensitive.
+    // Valid renderers are: "CreoleRenderer", "MarkdownRenderer", "PodRenderer",
+    //     "RDocRenderer", "RstRenderer", "TextitleRenderer"
+    // for example, to disable Textile and Pod renderer:
+    //   "ignored_renderers": ["TextitleRenderer", "PodRenderer"]
+    "ignored_renderers": ["CreoleRenderer", "PodRenderer", "RDocRenderer",
+    	"RstRenderer", "TextitleRenderer"]
+}

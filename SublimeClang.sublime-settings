@@ -9,6 +9,15 @@
         "objc": [],
         "objc++": []
     },
+
+    "options":
+    [
+        "-isystem", "C:\\apps\\CodeBlocks\\MinGW\\lib\\gcc\\mingw32\\4.7.0\\include",
+        "-isystem", "C:\\apps\\CodeBlocks\\MinGW\\lib\\gcc\\mingw32\\4.7.0\\include\\c++",
+        "-isystem", "C:\\apps\\CodeBlocks\\MinGW\\lib\\gcc\\mingw32\\4.7.0\\include\\c++\\mingw32",
+        "-isystem", "C:\\apps\\CodeBlocks\\MinGW\\include",
+        "-Wall"
+    ],
     
 	// Whether or not to hide the clang output panel when it's empty
     "hide_output_when_empty": true,

@@ -1,5 +1,6 @@
 <snippet>
-    <content><![CDATA[module Main where
+    <content><![CDATA[
+module Main where
 
 main :: IO ()
 main = ${1:putStrLn "Hello World"}]]></content>

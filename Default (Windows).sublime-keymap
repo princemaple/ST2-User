@@ -1,4 +1,7 @@
 [
+	/*************
+	 * =override default
+	 *************/
 	{ "keys": ["alt+space"], "command": "auto_complete" },
 	{ "keys": ["alt+space"], "command": "replace_completion_with_auto_complete", "context":
 		[
@@ -6,17 +9,9 @@
 			{ "key": "setting.tab_completion", "operator": "equal", "operand": true }
 		]
 	},
-	{ "keys": ["ctrl+k", "ctrl+f"],
-		"command": "open_dir",
-		"args": {"dir": "$file_path", "file": "$file_name"}
-	},
-	{ "keys": ["j", "j"], "command": "exit_insert_mode",
-	  "context":
-	  [
-	    { "key": "setting.command_mode", "operand": false },
-	    { "key": "setting.is_widget", "operand": false }
-	  ]
-	},
+	/*************
+	 * =customized tab
+	 *************/
 	{ "keys": ["tab"], "command": "move", "args": {"by": "characters", "forward": true}, "context":
 	    [
 	        { "key": "selection_empty", "operator": "equal", "operand": true },
@@ -45,21 +40,13 @@
 	        { "key": "has_next_field", "operator": "equal", "operand": false }
 	    ]
 	},
-	{ "keys": ["v", "v"], "command": "run_macro_file",
-		"args": {"file": "Packages/Default/Add Line.sublime-macro"},
-		"context":
-		[
-		    { "key": "setting.command_mode", "operand": false },
-		    { "key": "setting.is_widget", "operand": false }
-		]
-	},
-	{ "keys": ["super+j"], "command": "expand_selection", "args": {"to": "indentation"} },
-	{ "keys": ["`"], "command": "hide_auto_complete", "context":
-		[
-			{ "key": "auto_complete_visible", "operator": "equal", "operand": true }
-		]
-	},
+	/*************
+	 * =plug-in terminal
+	 *************/
 	{ "keys": ["ctrl+super+t"], "command": "open_terminal"},
+	/*************
+	 * =plug-in reg replace
+	 *************/
 	{ "keys": ["alt+x"],
 		"command": "reg_replace",
 		"args": {
@@ -86,8 +73,14 @@
 			{ "key": "setting.is_widget", "operator": "equal", "operand": false }
 		]
 	},
+	/*************
+	 * =plug-in advanced new file
+	 *************/
 	{ "keys": ["super+n"], "command": "advanced_new_file"},
 	{ "keys": ["shift+super+n"], "command": "advanced_new_file", "args": {"is_python": true}},
+	/*************
+	 * =jumping to blank lines
+	 *************/
 	{ "keys": ["alt+up"], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": false} },
 	{ "keys": ["alt+down"], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": true} },
 	{ "keys": ["alt+k"], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": false},
@@ -104,7 +97,56 @@
 	    { "key": "setting.is_widget", "operand": false }
 	  ]
 	},
+	/*************
+	 * =plug-in fuzzynav
+	 *************/
     { "keys": ["ctrl+o"], "command": "fuzzy_start_from_file" },
     { "keys": ["ctrl+shift+o"], "command": "fuzzy_bookmarks_load" },
+	/*************
+	 * =customized hotkey for search bar
+	 *************/
+	{ "keys": ["shift+alt+r"], "command": "toggle_reverse", "context":
+		[
+			{ "key": "setting.is_widget", "operator": "equal", "operand": true }
+		]
+	},
+	{ "keys": ["shift+alt+i"], "command": "toggle_in_selection", "context":
+		[
+			{ "key": "setting.is_widget", "operator": "equal", "operand": true }
+		]
+	},
+	{ "keys": ["shift+alt+w"], "command": "toggle_wrap", "context":
+		[
+			{ "key": "setting.is_widget", "operator": "equal", "operand": true }
+		]
+	},
+    /*************
+     * =customized general purpose hotkey
+     *************/
+	{ "keys": ["j", "j"], "command": "exit_insert_mode",
+	  "context":
+	  [
+	    { "key": "setting.command_mode", "operand": false },
+	    { "key": "setting.is_widget", "operand": false }
+	  ]
+	},
+	{ "keys": ["v", "v"], "command": "run_macro_file",
+		"args": {"file": "Packages/Default/Add Line.sublime-macro"},
+		"context":
+		[
+		    { "key": "setting.command_mode", "operand": false },
+		    { "key": "setting.is_widget", "operand": false }
+		]
+	},
+	{ "keys": ["`"], "command": "hide_auto_complete", "context":
+		[
+			{ "key": "auto_complete_visible", "operator": "equal", "operand": true }
+		]
+	},
+	{ "keys": ["super+j"], "command": "expand_selection", "args": {"to": "indentation"} },
+	{ "keys": ["ctrl+k", "ctrl+f"],
+		"command": "open_dir",
+		"args": {"dir": "$file_path", "file": "$file_name"}
+	},
     { "keys": ["super+o"], "command": "open_in_browser" }
 ]
