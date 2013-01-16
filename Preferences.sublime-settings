@@ -63,6 +63,7 @@
 	],
 	"font_size": 12,
 	"highlight_line": true,
+	"highlight_modified_tabs": false,
 	"ignored_packages":
 	[
 		"LaTeX",
@@ -111,6 +112,8 @@
 	"tab_completion": false,
 	"table_editor_border_style": "grid",
 	"theme": "Default.sublime-theme",
+	"trim_automatic_white_space": false,
+	"trim_trailing_white_space_on_save": true,
 	"vintage_ctrl_keys": false,
 	"word_wrap": true
 }

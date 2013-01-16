@@ -41,6 +41,10 @@
 	    ]
 	},
 	/*************
+	 * =plug-in hex to rgba
+	 *************/
+	{ "keys": ["shift+super+r"], "command": "hex_to_rgba" },
+	/*************
 	 * =plug-in terminal
 	 *************/
 	{ "keys": ["ctrl+super+t"], "command": "open_terminal"},
@@ -79,6 +83,11 @@
 	{ "keys": ["super+n"], "command": "advanced_new_file"},
 	{ "keys": ["shift+super+n"], "command": "advanced_new_file", "args": {"is_python": true}},
 	/*************
+	 * =plug-in fuzzynav
+	 *************/
+    { "keys": ["ctrl+o"], "command": "fuzzy_start_from_file" },
+    { "keys": ["ctrl+shift+o"], "command": "fuzzy_bookmarks_load" },
+	/*************
 	 * =jumping to blank lines
 	 *************/
 	{ "keys": ["alt+up"], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": false} },
@@ -97,11 +106,6 @@
 	    { "key": "setting.is_widget", "operand": false }
 	  ]
 	},
-	/*************
-	 * =plug-in fuzzynav
-	 *************/
-    { "keys": ["ctrl+o"], "command": "fuzzy_start_from_file" },
-    { "keys": ["ctrl+shift+o"], "command": "fuzzy_bookmarks_load" },
 	/*************
 	 * =customized hotkey for search bar
 	 *************/
