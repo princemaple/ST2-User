@@ -147,6 +147,12 @@
 			{ "key": "auto_complete_visible", "operator": "equal", "operand": true }
 		]
 	},
+	{ "keys": ["s"], "command": "set_action_motion", "args": {
+        "action": "enter_insert_mode",
+        "action_args": {"insert_command": "right_delete"},
+        "motion": "expand_selection" },
+        "context": [{"key": "setting.command_mode"}]
+	},
 	{ "keys": ["super+j"], "command": "expand_selection", "args": {"to": "indentation"} },
 	{ "keys": ["ctrl+k", "ctrl+f"],
 		"command": "open_dir",

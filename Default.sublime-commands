@@ -3,7 +3,7 @@
 		"caption": "Reg Replace: C type code clean up",
 		"command": "reg_replace",
 		"args": {
-			"replacements": 
+			"replacements":
 			[
 				"common_space",
 				"semicolon_space",
@@ -37,6 +37,16 @@
 				"compress_special",
 				"compress_opening_brackets",
 				"compress_closing_brackets"
+			]
+		}
+	},
+
+	{
+		"caption": "Reg Replace: Remove All Comments",
+		"command": "reg_replace",
+		"args": {
+			"replacements": [
+				"comments"
 			]
 		}
 	}

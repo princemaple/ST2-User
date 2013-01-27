@@ -68,7 +68,7 @@
 			"replace": "",
 			"greedy": true,
 			"case": false,
-			"scope_filter": 
+			"scope_filter":
 			[
 				"source.c, source.js, source.java, source.css",
 				"-comment", "-!string"
@@ -86,7 +86,7 @@
 			"replace": "\\1",
 			"greedy": true,
 			"case": false,
-			"scope_filter": 
+			"scope_filter":
 			[
 				"source.c, source.js, source.java, source.css",
 				"-comment", "-!string"
@@ -97,7 +97,7 @@
 			"replace": "\\1",
 			"greedy": true,
 			"case": false,
-			"scope_filter": 
+			"scope_filter":
 			[
 				"source.c, source.js, source.java, source.css",
 				"-comment", "-!string"
@@ -108,11 +108,19 @@
 			"replace": "\\1",
 			"greedy": true,
 			"case": false,
-			"scope_filter": 
+			"scope_filter":
 			[
 				"source.c, source.js, source.java, source.css",
 				"-comment", "-!string"
 			]
+		},
+		"comments": {
+			"find": ".*",
+			"replace": "",
+			"greedy": true,
+			"case": false,
+			"scope_filter":
+			["comment"]
 		}
 	}
 }
