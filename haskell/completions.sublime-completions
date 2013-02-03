@@ -1,0 +1,10 @@
+{
+	"scope": "source.haskell -string -comment -constant",
+	"completions": [
+		"do",
+		"lookup",
+		"concat",
+		"length",
+		"flip"
+	]
+}
