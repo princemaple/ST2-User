@@ -5,6 +5,7 @@
 		"lookup",
 		"concat",
 		"length",
-		"flip"
+		"flip",
+		"otherwise"
 	]
 }

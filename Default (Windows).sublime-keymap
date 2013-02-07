@@ -40,6 +40,13 @@
 	        { "key": "has_next_field", "operator": "equal", "operand": false }
 	    ]
 	},
+	/************
+	* =plug-in sublime haskell
+	*************/
+    { "keys": ["super+s"], "command": "sublime_haskell_show_type",
+    "context": [{ "key": "selector", "operator": "equal", "operand": "source.haskell"} ] },
+    { "keys": ["super+i"], "command": "sublime_haskell_insert_type",
+    "context": [{ "key": "selector", "operator": "equal", "operand": "source.haskell"} ] },
 	/*************
 	 * =plug-in hex to rgba
 	 *************/
