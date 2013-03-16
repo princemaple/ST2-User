@@ -50,7 +50,7 @@
 	/*************
 	 * =plug-in hex to rgba
 	 *************/
-	{ "keys": ["shift+super+r"], "command": "hex_to_rgba" },
+	{ "keys": ["ctrl+super+r"], "command": "hex_to_rgba" },
 	/*************
 	 * =plug-in terminal
 	 *************/

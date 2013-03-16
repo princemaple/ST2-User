@@ -23,7 +23,7 @@
 		"HTML Export",
 		"HTML5",
 		"Indent XML",
-		"jQuery Snippets pack",
+		"jQuery",
 		"JsMinifier",
 		"LESS",
 		"LESS-build",
@@ -46,10 +46,12 @@
 		"SublimeHaskell",
 		"SublimeLinter",
 		"SublimeREPL",
+		"Sublimerge",
 		"SublimeWebColors",
 		"Table Editor",
 		"Tag",
 		"Terminal",
+		"Theme - PrM",
 		"UnofficialDocs",
 		"YUI Compressor"
 	]
