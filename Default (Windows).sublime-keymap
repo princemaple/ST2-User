@@ -94,6 +94,10 @@
 	 *************/
     { "keys": ["ctrl+o"], "command": "fuzzy_start_from_file" },
     { "keys": ["ctrl+shift+o"], "command": "fuzzy_bookmarks_load" },
+    /************
+    * =plug-in indent xml
+    *************/
+	{ "keys": ["ctrl+k", "ctrl+i"], "command": "auto_indent" },
 	/*************
 	 * =jumping to blank lines
 	 *************/
@@ -161,9 +165,10 @@
         "context": [{"key": "setting.command_mode"}]
 	},
 	{ "keys": ["super+j"], "command": "expand_selection", "args": {"to": "indentation"} },
-	{ "keys": ["ctrl+k", "ctrl+f"],
+	{ "keys": ["alt+f1"],
 		"command": "open_dir",
 		"args": {"dir": "$file_path", "file": "$file_name"}
 	},
-    { "keys": ["super+o"], "command": "open_in_browser" }
+    { "keys": ["super+o"], "command": "open_in_browser" },
+    { "keys": ["ctrl+alt+b"], "command": "show_panel", "args": {"panel": "output.exec"} }
 ]
