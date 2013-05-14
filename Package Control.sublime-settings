@@ -10,6 +10,7 @@
 		"BracketHighlighter",
 		"Color Highlighter",
 		"CSSLint",
+		"Djaneiro",
 		"DocBlockr",
 		"Emmet",
 		"EncodingHelper",
@@ -40,11 +41,11 @@
 		"RegReplace",
 		"SCSS",
 		"SideBarEnhancements",
-		"Sublime-HTMLPrettify",
 		"sublime-jslint",
 		"SublimeClang",
 		"SublimeHaskell",
 		"SublimeLinter",
+		"SublimeOnSaveBuild",
 		"SublimeREPL",
 		"Sublimerge",
 		"SublimeWebColors",
@@ -52,6 +53,7 @@
 		"Tag",
 		"Terminal",
 		"Theme - XDefault",
+		"Three.js Autocomplete",
 		"UnofficialDocs",
 		"YUI Compressor"
 	]

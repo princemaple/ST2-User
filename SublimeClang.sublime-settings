@@ -4,21 +4,23 @@
     "additional_language_options":
     {
         // For example, you can use "c++": ["-std=c++11"] to enable C++11 features.
-        "c++" : [],
-        "c": ["-Wno-deprecated-declarations", "-Wno-switch"],
+        "c++" : ["-std=c++11", "-Wno-unused-parameter"],
+        "c": ["-Wno-deprecated-declarations", "-Wno-switch", "-std=c99"],
         "objc": [],
         "objc++": []
     },
 
     "options":
     [
-        "-isystem", "C:\\apps\\CodeBlocks\\MinGW\\lib\\gcc\\mingw32\\4.7.0\\include",
-        "-isystem", "C:\\apps\\CodeBlocks\\MinGW\\lib\\gcc\\mingw32\\4.7.0\\include\\c++",
-        "-isystem", "C:\\apps\\CodeBlocks\\MinGW\\lib\\gcc\\mingw32\\4.7.0\\include\\c++\\mingw32",
-        "-isystem", "C:\\apps\\CodeBlocks\\MinGW\\include",
-        "-Wall"
+        "-isystem", "C:/MinGW/lib/gcc/mingw32/4.7.2/include",
+        "-isystem", "C:/MinGW/lib/gcc/mingw32/4.7.2/include/c++",
+        "-isystem", "C:/MinGW/lib/gcc/mingw32/4.7.2/include/c++/mingw32",
+        "-isystem", "C:/MinGW/include",
+        "-Wall",
+        "-Werror",
+        "-Wextra"
     ],
-    
+
 	// Whether or not to hide the clang output panel when it's empty
     "hide_output_when_empty": true,
 
