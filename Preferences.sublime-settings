@@ -2,7 +2,7 @@
 	"auto_complete_commit_on_tab": true,
 	"auto_complete_with_fields": true,
 	"caret_style": "wide",
-	"color_scheme": "Packages/Color Scheme - Default/Monokai Bright.tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 	"detect_slow_plugins": false,
 	"file_exclude_patterns":
 	[
@@ -38,7 +38,7 @@
 	],
 	"font_size": 12,
 	"highlight_line": true,
-	"highlight_modified_tabs": false,
+	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 		"LaTeX",
@@ -48,7 +48,6 @@
 		"Perl",
 		"Textile",
 		"ASCII Decorator",
-		"FindKeyConflicts",
 		"FoldComments",
 		"Erlang",
 		"SublimeLinter",
@@ -60,6 +59,7 @@
 		"C#",
 		"GotoTab",
 		"AppleScript",
+		"Haskell",
 		"SublimeWebColors",
 		"TCL",
 		"Tag",
@@ -67,6 +67,7 @@
 		"DocBlockr",
 		"D",
 		"Lisp",
+		"AutoFileName",
 		"UnofficialDocs",
 		"Objective-C",
 		"ASP",
@@ -74,7 +75,6 @@
 		"Markdown Preview",
 		"PlainTasks",
 		"Clojure",
-		"Meta",
 		"CSSLint",
 		"Lua",
 		"SublimeREPL",
@@ -83,7 +83,7 @@
 		"OCaml",
 		"Graphviz",
 		"YAML",
-		"Haskell",
+		"Meta",
 		"ActionScript",
 		"Go",
 		"OmniMarkupPreviewer"

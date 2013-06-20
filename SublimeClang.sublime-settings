@@ -5,7 +5,7 @@
     {
         // For example, you can use "c++": ["-std=c++11"] to enable C++11 features.
         "c++" : ["-std=c++11", "-Wno-unused-parameter"],
-        "c": ["-Wno-deprecated-declarations", "-Wno-switch", "-std=c99"],
+        "c": ["-Wno-deprecated-declarations", "-Wno-unused-parameter", "-Wno-switch", "-std=c99"],
         "objc": [],
         "objc++": []
     },

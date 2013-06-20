@@ -1,5 +1,5 @@
 {
-	"cmd": ["runhaskell", "$file"],
+	"cmd": ["hdevtools", "check", "-g", "-Wall", "$file"],
 	"file_regex": "^(.*?):(\\d+):(\\d+):",
 	"selector": "source.haskell"
 }

@@ -4,9 +4,9 @@
 	[
 		"AAAPackageDev",
 		"AdvancedNewFile",
-		"Alignment",
 		"ASCII Decorator",
 		"Auto Semi-Colon",
+		"AutoFileName",
 		"BracketHighlighter",
 		"Color Highlighter",
 		"CSSLint",
@@ -24,7 +24,6 @@
 		"HTML Export",
 		"HTML5",
 		"Indent XML",
-		"jQuery",
 		"JsMinifier",
 		"LESS",
 		"LESS-build",
@@ -38,6 +37,7 @@
 		"Package Control",
 		"PlainTasks",
 		"Prefixr",
+		"Prolog",
 		"RegReplace",
 		"SCSS",
 		"SideBarEnhancements",
@@ -48,13 +48,16 @@
 		"SublimeOnSaveBuild",
 		"SublimeREPL",
 		"Sublimerge",
+		"SublimeRope",
 		"SublimeWebColors",
 		"Table Editor",
 		"Tag",
 		"Terminal",
+		"Text Pastry",
 		"Theme - XDefault",
 		"Three.js Autocomplete",
 		"UnofficialDocs",
+		"VAlign",
 		"YUI Compressor"
 	]
 }
