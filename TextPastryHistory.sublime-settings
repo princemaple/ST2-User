@@ -1,0 +1,54 @@
+{
+	"history":
+	{
+		"-1770324793":
+		{
+			"command": "insert_nums",
+			"date": 1379137376.67,
+			"label": "\\i0",
+			"separator": null,
+			"text": "0 1 1"
+		},
+		"-1807492890":
+		{
+			"command": "insert_nums",
+			"date": 1376823378.39,
+			"label": "\\i",
+			"separator": null,
+			"text": "1 1 1"
+		},
+		"1992036313":
+		{
+			"command": "text_pastry_insert_text",
+			"date": 1379137381.38,
+			"label": "\\p(\\n)",
+			"separator": "\\n",
+			"text": " "
+		},
+		"939787109":
+		{
+			"command": "insert_nums",
+			"date": 1376823386.34,
+			"label": "1 1 2",
+			"separator": null,
+			"text": "1 1 2"
+		},
+		"994200901":
+		{
+			"command": "insert_nums",
+			"date": 1383284594.57,
+			"label": "\\i(1,10)",
+			"separator": null,
+			"text": "1 10 1"
+		}
+	},
+	"last_command":
+	{
+		"command": "insert_nums",
+		"index": 5,
+		"key": "994200901",
+		"label": "\\i(1,10)",
+		"separator": null,
+		"text": "1 10 1"
+	}
+}

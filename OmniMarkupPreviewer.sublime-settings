@@ -5,5 +5,6 @@
     // for example, to disable Textile and Pod renderer:
     //   "ignored_renderers": ["TextitleRenderer", "PodRenderer"]
     "ignored_renderers": ["CreoleRenderer", "PodRenderer", "RDocRenderer",
-    	"RstRenderer", "TextitleRenderer"]
+    	"RstRenderer", "TextileRenderer", "MediaWikiRenderer", "OrgRenderer",
+    	"LiterateHaskellRenderer", "AsciiDocRenderer"]
 }

@@ -1,0 +1,16 @@
+{
+    "codeintel_enabled_languages":
+    [
+        "JavaScript", "SCSS", "Python", "Ruby", "Python3", "Sass", "Django", "Perl", "CSS", "Less", "Node.js", "Tcl"
+    ],
+
+    "codeintel_live_enabled_languages":
+    [
+        "JavaScript", "SCSS", "Ruby", "Sass", "Django", "Perl", "CSS", "Less", "Node.js", "Tcl"
+    ],
+
+    "codeintel_syntax_map":
+    {
+        "Python Django": "Django"
+    }
+}

@@ -73,8 +73,8 @@
 			"replacements": [
 				"common_space",
 				"semicolon_space",
-				"opening_bracket_space",
-				"closing_bracket_space",
+				// "opening_bracket_space",
+				// "closing_bracket_space",
 				"logic",
 				"equal",
 				"bettercomment"
@@ -170,5 +170,5 @@
 		"args": {"dir": "$file_path", "file": "$file_name"}
 	},
     { "keys": ["super+o"], "command": "open_in_browser" },
-    { "keys": ["ctrl+alt+b"], "command": "show_panel", "args": {"panel": "output.exec"} }
+	{ "keys": ["ctrl+alt+b"], "command": "show_panel", "args": {"panel": "output.exec"} }
 ]
